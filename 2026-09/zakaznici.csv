@@ -1,7 +1,7 @@
-id;jmeno;prijmeni;mesto;email
-1;Jan;Novák;Praha;novak.jan@seznam.cz
-2;Petra;Svobodová;Brno;petra.sv@gmail.com
-3;Tomáš;Dvořák;Ostrava;t.dvorak@email.cz
-4;Lucie;Černá;Plzeň;lucie.cerna@centrum.cz
-5;Martin;Procházka;Liberec;prochazka@firma.cz
-6;Eva;Králová;Praha;eva.kralova@gmail.com
+id,jmeno,prijmeni,mesto,email
+1;Jan,Novák,Praha,novak.jan@seznam.cz
+2;Petra,Svobodová,Brno,petra.sv@gmail.com
+3;Tomáš,Dvořák,Ostrava,t.dvorak@email.cz
+4;Lucie,Černá,Plzeň,lucie.cerna@centrum.cz
+5;Martin,Procházka,Liberec,prochazka@firma.cz
+6;Eva,Králová,Praha,eva.kralova@gmail.com
