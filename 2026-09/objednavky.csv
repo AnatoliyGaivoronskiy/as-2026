@@ -1,0 +1,26 @@
+cislo;datum;zakaznik;mesto;email;vyrobek;cena;pocet
+1001;2026-09-01;Jan Novák;Praha;novak.jan@seznam.cz;Myš Logitech M185;349;1
+1002;2026-09-01;Petra Svobodová;Brno;petra.sv@gmail.com;Klávesnice Genius;599;1
+1003;1.9.2026;Novák Jan;Praha 9;novak.jan@seznam.cz;Podložka pod myš;149;2
+1004;2026-09-02;Tomáš Dvořák;Ostrava;t.dvorak@email.cz;Monitor 24" AOC;3290;1
+1005;2026-09-02;Lucie Černá;Plzeň;lucie.cerna@centrum.cz;Myš Logitech M185;399;1
+1006;02.09.2026;jan novak;;novak.jan@seznam.cz;USB flash 64 GB;259;3
+1007;2026-09-03;Petra Svobodova;Brno;petra.sv@gmail.com;Klávesnice Genius, Podložka pod myš;599+149;1
+1008;2026-09-03;Martin Procházka;Liberec;prochazka@firma.cz;Webkamera;890;1
+1009;3. září;Tomáš Dvořák;Ostrava;t.dvorak@email.cz;USB flash 64 GB;259;
+1010;2026-09-04;Lucie Černá;Plzeň;lucie.cerna@centrum.cz;Sluchátka JBL;1190;1
+1011;2026-09-04;J. Novák;Praha;Novak.Jan@seznam.cz;Monitor 24" AOC;3290;1
+1012;2026-09-05;Martin Procházka;Liberec;prochazka@firma.cz;Myš Logitech M185;349;2
+1013;2026-09-05;Eva Králová;Praha;eva.kralova@gmail.com;Klávesnice Genius;549;1
+1014;5.9.2026;Petra Svobodová;Brno;petra.sv@gmail.com;Sluchátka JBL;1190;1
+1015;2026-09-08;Tomáš Dvořák;Ostrava;tomas.dvorak@email.cz;Webkamera;890;1
+1016;2026-09-08;Lucie Černá;Plzen;lucie.cerna@centrum.cz;Podložka pod myš;149;1
+1017;2026-09-09;Jan Novák;Praha;novak.jan@seznam.cz;Sluchátka JBL;1 190;1
+1018;2026-09-09;Eva Králová;Praha;eva.kralova@gmail.com;USB flash 64 GB;259;2
+1019;09/10/2026;Martin Procházka;Liberec;prochazka@firma.cz;Monitor 24" AOC;3290;1
+1020;2026-09-10;Petra Svobodová;Brno;petra.sv@gmail.com;Myš Logitech M185;349;1
+1021;2026-09-11;Tomáš Dvořák;Ostava;t.dvorak@email.cz;Klávesnice Genius;599;1
+1022;2026-09-11;Eva Králová;Praha;eva.kralova@gmail.com;Webkamera, USB flash 64 GB;890+259;1
+1023;2026-09-12;Lucie Černá;Plzeň;lucie.cerna@centrum.cz;Monitor 24" AOC;3 290;1
+1024;2026-09-12;Novák Jan;Praha 9;novak.jan@seznam.cz;Myš Logitech M185;349;1
+1025;2026-09-15;Martin Procházka;Liberec;prochazka@firma.cz;Sluchátka JBL;1190;1
