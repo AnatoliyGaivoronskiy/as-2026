@@ -1,0 +1,1 @@
+SELECT name, population FROM world WHERE continent = 'Europe'
