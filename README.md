@@ -38,14 +38,10 @@ erDiagram
         int id PK
         string nazev
         decimal cena
-        string kategorie
-        int sklad
     }
     POLOZKA {
-        int id PK
-        int id_objednavky FK
+        int cislo PK
         int id_produktu FK
         int pocet
-        decimal cena_za_ks
     }
 ```
