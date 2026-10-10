@@ -13,3 +13,39 @@ za celý školní rok. Odevzdává se commitem, ne mailem.
 
 Založeno 26. 9. 2026. 
 Kód žáka: 5 · třída IT2
+
+# Model e-shopu
+
+```mermaid
+erDiagram
+    ZAKAZNIK ||--o{ OBJEDNAVKA : "zadává"
+    OBJEDNAVKA ||--|{ POLOZKA : "obsahuje"
+    PRODUKT ||--o{ POLOZKA : "je součástí"
+
+    ZAKAZNIK {
+        int id PK
+        string jmeno
+        string prijmeni
+        string mesto
+        string email
+    }
+    OBJEDNAVKA {
+        int cislo PK
+        date datum
+        int id_zakaznika FK
+    }
+    PRODUKT {
+        int id PK
+        string nazev
+        decimal cena
+        string kategorie
+        int sklad
+    }
+    POLOZKA {
+        int id PK
+        int id_objednavky FK
+        int id_produktu FK
+        int pocet
+        decimal cena_za_ks
+    }
+```
