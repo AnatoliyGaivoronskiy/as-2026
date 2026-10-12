@@ -12,32 +12,41 @@ krouzky1.csv > primarní klíč: id_krouzku
 prihlasky.csv > primarní klíč: id_prihlasky
 cizí klíče: id_zaka, id_krouzku
 
+### ER diagram
+
 ```mermaid
 erDiagram
-    ZACI ||--o{ OBJEDNAVKA : "zadává"
-    KROUZKY1 ||--|{ POLOZKA : "obsahuje"
-    PRIHLASKY ||--o{ POLOZKA : "je v"
+    ZACI ||--o{ PRIHLASKY : "podava"
+    KROUZKY1 ||--o{ PRIHLASKY : "ma"
 
-    ZAKAZNIK {
-        int id PK
+    ZACI {
+        int id_zaka PK
         string jmeno
         string prijmeni
-        string mesto
-        string email
+        string trida
     }
-    OBJEDNAVKA {
-        int cislo PK
-        date datum
-        int id_zakaznika FK
-    }
-    PRODUKT {
-        int id PK
+
+    KROUZKY1 {
+        int id_krouzku PK
         string nazev
+        string vedouci
+        string den
+        string cas
+        string mistnost
+        int cena_kc
     }
-    POLOZKA {
-        int id_objednavky FK
+
+    PRIHLASKY {
+        int id_prihlasky PK
+        int id_zaka FK
+        int id_krouzku FK
+        string zaplaceno
     }
 ```
+
+Tabulka `prihlasky.csv` propojuje žáky s kroužky. Jeden žák může mít více přihlášek a do jednoho kroužku se může přihlásit více žáků.
+
+
 
 ```sql
 SELECT nazev, cena
