@@ -38,3 +38,9 @@ erDiagram
         int id_objednavky FK
     }
 ```
+
+```sql
+SELECT nazev, cena
+FROM krouzky
+WHERE cena > 500;
+```
